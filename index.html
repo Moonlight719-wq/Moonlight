@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="رزومه و پورتفولیوی فاطمه کمالی روستا در حوزه فناوری اطلاعات و امنیت سایبری">
+    <title>CyberShield | فاطمه کمالی روستا</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- بک‌گراند موشن با صفر و یک‌های آماده و لود آنی -->
+    <div class="cyber-motion-bg">
+        <div class="grid-overlay"></div>
+        <div class="cyber-wave"></div>
+        <div class="binary-rain">
+            <span style="left: 0%; animation-duration: 12s; animation-delay: 0s;">0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1</span>
+            <span style="left: 8%; animation-duration: 15s; animation-delay: 2s;">1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1</span>
+            <span style="left: 16%; animation-duration: 10s; animation-delay: 1s;">0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1</span>
+            <span style="left: 24%; animation-duration: 14s; animation-delay: 4s;">1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0</span>
+            <span style="left: 32%; animation-duration: 11s; animation-delay: 0.5s;">0<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1</span>
+            <span style="left: 40%; animation-duration: 16s; animation-delay: 3s;">1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0</span>
+            <span style="left: 48%; animation-duration: 9s; animation-delay: 2.5s;">0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1</span>
+            <span style="left: 56%; animation-duration: 13s; animation-delay: 1.5s;">1<br>1<br>0<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1</span>
+            <span style="left: 64%; animation-duration: 11s; animation-delay: 3.5s;">0<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0</span>
+            <span style="left: 72%; animation-duration: 14s; animation-delay: 0.8s;">1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1</span>
+            <span style="left: 80%; animation-duration: 12s; animation-delay: 1.2s;">0<br>1<br>1<br>0<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>0</span>
+            <span style="left: 88%; animation-duration: 15s; animation-delay: 2.8s;">1<br>0<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1<br>0<br>1<br>1</span>
+            <span style="left: 96%; animation-duration: 10s; animation-delay: 0.3s;">0<br>1<br>0<br>1<br>1<br>0<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>0<br>1</span>
+        </div>
+    </div>
+
+    <!-- افکت نور تعاملی دنبال‌کننده موس -->
+    <div class="mouse-glow" id="mouseGlow"></div>
+
+    <!-- نوار بالایی چسبان و شیشه‌ای -->
+    <div class="top-bar-wrapper">
+        <header class="site-header">
+            <a class="logo" href="#home">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--neon-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                CyberShield<span>.</span>
+            </a>
+
+            <nav aria-label="Main navigation" class="main-nav">
+                <a href="#about" data-fa="درباره من" data-en="About">درباره من</a>
+                <a href="#skills" data-fa="مهارت‌ها" data-en="Skills">مهارت‌ها</a>
+                <a href="#experience" data-fa="سوابق کاری" data-en="Experience">سوابق کاری</a>
+                <a href="#certifications" data-fa="گواهی‌نامه‌ها" data-en="Certifications">گواهی‌نامه‌ها</a>
+                <a href="#education" data-fa="تحصیلات و مقالات" data-en="Education & Papers">تحصیلات و مقالات</a>
+                <a href="#projects" data-fa="پروژه‌ها" data-en="Projects">پروژه‌ها</a>
+                <a href="#contact" data-fa="ارتباط" data-en="Contact">ارتباط</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="فاطمه_کمالی روستا-fa.pdf" class="btn-cv" download>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    <span data-fa="رزومه PDF" data-en="CV PDF">رزومه PDF</span>
+                </a>
+
+                <div class="language-switch" aria-label="انتخاب زبان">
+                    <button id="fa-btn" type="button" class="active">FA</button>
+                    <button id="en-btn" type="button">EN</button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <!-- بخش معرفی (Hero) -->
+        <section id="home" class="hero">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="terminal-badge">
+                        <span class="dot"></span>
+                        <span data-fa="آماده همکاری در حوزه SOC و زیرساخت شبکه" data-en="Available for SOC & Network Roles">آماده همکاری در حوزه SOC و زیرساخت شبکه</span>
+                    </div>
+
+                    <h1 class="gradient-text" data-fa="فاطمه کمالی روستا" data-en="Fatemeh Kamaliroosta">فاطمه کمالی روستا</h1>
+
+                    <h2 class="hero-subtitle" data-fa="کارشناس فناوری اطلاعات | تحلیلگر امنیت (SOC Tier 1)" data-en="IT Specialist | SOC Tier 1 Analyst">
+                        کارشناس فناوری اطلاعات | تحلیلگر امنیت (SOC Tier 1)
+                    </h2>
+
+                    <p class="hero-desc" data-fa="دارای ۲.۵ سال تجربه عملی در پشتیبانی سیستم‌ها و زیرساخت شبکه، همراه با آموزش تخصصی در حوزه SOC Tier 1، تحلیل لاگ و SIEM (Splunk). متمرکز بر پایش امنیتی، تحلیل Alert، مدیریت فایروال FortiGate و تشخیص رخدادهای امنیتی."
+                       data-en="IT Specialist with 2.5 years of hands-on experience in system support and network infrastructure, complemented by specialized training in SOC Tier 1, log analysis, and SIEM (Splunk). Focused on security monitoring, alert triage, and FortiGate administration.">
+                        دارای ۲.۵ سال تجربه عملی در پشتیبانی سیستم‌ها و زیرساخت شبکه، همراه با آموزش تخصصی در حوزه SOC Tier 1، تحلیل لاگ و SIEM (Splunk). متمرکز بر پایش امنیتی، تحلیل Alert، مدیریت فایروال FortiGate و تشخیص رخدادهای امنیتی.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="primary-link" href="#certifications">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                            <span data-fa="مشاهده مدارک و گواهی‌ها" data-en="View Certificates">مشاهده مدارک و گواهی‌ها</span>
+                        </a>
+                        <a class="secondary-link" href="#projects" data-fa="پروژه‌ها و لابراتوارها" data-en="Projects & Labs">پروژه‌ها و لابراتوارها</a>
+                    </div>
+                </div>
+
+                <!-- پنجره ترمینال تعاملی -->
+                <div class="terminal-window" dir="ltr">
+                    <div class="terminal-header">
+                        <span class="t-dot red"></span>
+                        <span class="t-dot yellow"></span>
+                        <span class="t-dot green"></span>
+                        <span class="t-title">soc-analyst@cybershield:~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">$</span> whoami</p>
+                        <p class="t-out">Fatemeh Kamaliroosta — IT & SOC Specialist</p>
+                        <p><span class="prompt">$</span> cat skills.conf</p>
+                        <p class="t-out">[SIEM]: Splunk, Log Analysis, MITRE ATT&CK<br>[Net]: FortiGate, MikroTik, Cisco CCNA/CCNP<br>[Sys]: Active Directory, Windows Server, Linux</p>
+                        <p><span class="prompt">$</span> systemctl status security-monitoring</p>
+                        <p class="t-out"><span class="t-active">● active (running)</span> — Ready for SOC Tier 1</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- نوار آمار سریع -->
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-num">2.5+</span>
+                    <span class="stat-label" data-fa="سال سابقه عملی IT و شبکه" data-en="Years IT & Network Exp.">سال سابقه عملی IT و شبکه</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">750+</span>
+                    <span class="stat-label" data-fa="ساعت دوره‌های تخصصی امنیت و شبکه" data-en="Hours Specialized Training">ساعت دوره‌های تخصصی امنیت و شبکه</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">8+</span>
+                    <span class="stat-label" data-fa="دوره و گواهی‌نامه تخصصی" data-en="Courses & Certifications">دوره و گواهی‌نامه تخصصی</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">SOC L1</span>
+                    <span class="stat-label" data-fa="تخصص در Splunk و تحلیل لاگ" data-en="Splunk & Log Triage Focus">تخصص در Splunk و تحلیل لاگ</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- درباره من -->
+        <section id="about" class="content-section">
+            <div class="section-header">
+                <span class="section-tag">01 // ABOUT</span>
+                <h2 data-fa="درباره من" data-en="About Me">درباره من</h2>
+            </div>
+            <p data-fa="من کارشناس فناوری اطلاعات با تجربه در پشتیبانی کاربران، عیب‌یابی سیستم‌ها و تجهیزات شبکه و کار با سرویس‌هایی مانند Active Directory، MikroTik و FortiGate هستم. در کنار تجربه کاری، در دوره‌های تخصصی شبکه و امنیت سایبری شرکت کرده‌ام و دانش خود را در زمینه SIEM، Splunk، تحلیل لاگ و مبانی تشخیص تهدید توسعه می‌دهم."
+               data-en="I am an IT professional experienced in user support, system and network troubleshooting, and working with technologies such as Active Directory, MikroTik, and FortiGate. Alongside my professional experience, I have completed specialized networking and cybersecurity training and continue to develop my knowledge of SIEM, Splunk, log analysis, and threat detection fundamentals.">
+                من کارشناس فناوری اطلاعات با تجربه در پشتیبانی کاربران، عیب‌یابی سیستم‌ها و تجهیزات شبکه و کار با سرویس‌هایی مانند Active Directory، MikroTik و FortiGate هستم. در کنار تجربه کاری، در دوره‌های تخصصی شبکه و امنیت سایبری شرکت کرده‌ام و دانش خود را در زمینه SIEM، Splunk، تحلیل لاگ و مبانی تشخیص تهدید توسعه می‌دهم.
+            </p>
+        </section>
+
+        <!-- مهارت‌ها -->
+        <section id="skills" class="content-section">
+            <div class="section-header">
+                <span class="section-tag">02 // SKILLS</span>
+                <h2 data-fa="مهارت‌های فنی و تخصصی" data-en="Technical Skills">مهارت‌های فنی و تخصصی</h2>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3 data-fa="امنیت سایبری و SOC" data-en="Cybersecurity & SOC">امنیت سایبری و SOC</h3>
+                    <div class="skill-pills">
+                        <span>SIEM Fundamentals</span><span>Splunk</span><span>Log Analysis</span><span>MITRE ATT&CK</span><span>IDS/IPS</span><span>Windows Event Logs</span>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <h3 data-fa="شبکه و زیرساخت" data-en="Networking & Infrastructure">شبکه و زیرساخت</h3>
+                    <div class="skill-pills">
+                        <span>FortiGate Firewall</span><span>MikroTik</span><span>Cisco CCNA/CCNP</span><span>TCP/IP</span><span>DNS / DHCP</span>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <h3 data-fa="سیستم‌عامل و مدیریت کاربران" data-en="Systems & Identity">سیستم‌عامل و مدیریت کاربران</h3>
+                    <div class="skill-pills">
+                        <span>Active Directory</span><span>Windows Server</span><span>Linux Essentials</span><span>Access Control</span>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <h3 data-fa="نرم‌افزارهای تخصصی و اداری" data-en="Software & Tools">نرم‌افزارهای تخصصی و اداری</h3>
+                    <div class="skill-pills">
+                        <span>Microsoft Visio</span><span>Microsoft Project</span><span>Excel (Advanced)</span><span>Access</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- سوابق کاری -->
+        <section id="experience" class="content-section">
+            <div class="section-header">
+                <span class="section-tag">03 // EXPERIENCE</span>
+                <h2 data-fa="سوابق کاری" data-en="Work Experience">سوابق کاری</h2>
+            </div>
+            <div class="timeline-container">
+                <article class="timeline-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <h3 data-fa="کارشناس فناوری اطلاعات (IT)" data-en="IT Specialist">کارشناس فناوری اطلاعات (IT)</h3>
+                        <span class="timeline-date" data-fa="شهریور ۱۴۰۴ تا کنون" data-en="Sep 2025 – Present">شهریور ۱۴۰۴ تا کنون</span>
+                    </div>
+                    <p class="company-name" data-fa="کارخانه صنایع غذایی شیبا — کرج" data-en="Shiba Food Industries — Karaj">کارخانه صنایع غذایی شیبا — کرج</p>
+                    <ul>
+                        <li data-fa="ارائه پشتیبانی فنی سیستم‌ها، کاربران و زیرساخت شبکه در سطح مجموعه" data-en="Providing technical support for systems, users, and network infrastructure">ارائه پشتیبانی فنی سیستم‌ها، کاربران و زیرساخت شبکه در سطح مجموعه</li>
+                        <li data-fa="نظارت و اعمال تغییرات در FortiGate Firewall شامل مدیریت و به‌روزرسانی قوانین" data-en="Monitoring and updating FortiGate Firewall rules">نظارت و اعمال تغییرات در FortiGate Firewall شامل مدیریت و به‌روزرسانی قوانین</li>
+                        <li data-fa="همکاری در مدیریت حساب‌های کاربری Active Directory و سطوح دسترسی" data-en="Managing Active Directory user accounts and access permissions">همکاری در مدیریت حساب‌های کاربری Active Directory و سطوح دسترسی</li>
+                    </ul>
+                </article>
+                <article class="timeline-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <h3 data-fa="کارشناس IT" data-en="IT Specialist">کارشناس IT</h3>
+                        <span class="timeline-date" data-fa="تیر ۱۴۰۳ تا مرداد ۱۴۰۳" data-en="Jul – Aug 2024">تیر ۱۴۰۳ تا مرداد ۱۴۰۳</span>
+                    </div>
+                    <p class="company-name" data-fa="شرکت سریع ترابر ماهان (ماهکس)" data-en="Mahex">شرکت سریع ترابر ماهان (ماهکس)</p>
+                    <ul>
+                        <li data-fa="ارائه پشتیبانی برای سیستم‌ها و مودم‌ها و رفع مشکلات کاربران" data-en="Providing support for computers, modems and resolving user issues">ارائه پشتیبانی برای سیستم‌ها و مودم‌ها و رفع مشکلات کاربران</li>
+                    </ul>
+                </article>
+                <article class="timeline-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <h3 data-fa="پشتیبانی فناوری اطلاعات (IT Help Desk)" data-en="IT Help Desk">پشتیبانی فناوری اطلاعات (IT Help Desk)</h3>
+                        <span class="timeline-date" data-fa="بهمن ۱۴۰۱ تا خرداد ۱۴۰۳" data-en="Feb 2023 – Jun 2024">بهمن ۱۴۰۱ تا خرداد ۱۴۰۳</span>
+                    </div>
+                    <p class="company-name" data-fa="فروشگاه قلم" data-en="Ghalam Store">فروشگاه قلم</p>
+                    <ul>
+                        <li data-fa="پشتیبانی سیستم‌ها، چاپگرها، پایانه‌های فروش (POS) و مودم‌ها" data-en="Supporting computers, printers, POS terminals and modems">پشتیبانی سیستم‌ها، چاپگرها، پایانه‌های فروش (POS) و مودم‌ها</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- گواهی‌نامه‌ها و مدارک -->
+        <section id="certifications" class="content-section">
+            <div class="section-header">
+                <span class="section-tag">04 // CERTIFICATIONS</span>
+                <h2 data-fa="مدارک و گواهی‌نامه‌ها" data-en="Certifications">مدارک و گواهی‌نامه‌ها</h2>
+            </div>
+            <p data-fa="برای مشاهده تصویر هر گواهی‌نامه روی دکمه کلیک کنید." data-en="Click view certificate to preview.">برای مشاهده تصویر هر گواهی‌نامه روی دکمه کلیک کنید.</p>
+            <div class="certs-grid">
+                <article class="cert-card">
+                    <div class="cert-body">
+                        <span class="cert-issuer">آموزشگاه کندو | ۱۴۰۴</span>
+                        <h3>SOC Tier 1 Specialist (240h)</h3>
+                        <p class="cert-meta">Splunk · SEC450 · Security+</p>
+                    </div>
+                    <button class="cert-btn" onclick="openCert('certs/soc-tier1.jpg', 'SOC Tier 1 - کندو')">مشاهده مدرک</button>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-body">
+                        <span class="cert-issuer">TryHackMe Labs</span>
+                        <h3>TryHackMe Certifications</h3>
+                        <p class="cert-meta">SOC Level 1 · Cyber Defense</p>
+                    </div>
+                    <button class="cert-btn" onclick="openCert('certs/thm-cert.jpg', 'TryHackMe')">مشاهده مدرک</button>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-body">
+                        <span class="cert-issuer">آموزشگاه کندو | ۱۴۰۴</span>
+                        <h3>MCSA L1 & L2 (120h)</h3>
+                        <p class="cert-meta">Windows Server · Active Directory</p>
+                    </div>
+                    <button class="cert-btn" onclick="openCert('certs/mcsa.jpg', 'MCSA')">مشاهده مدرک</button>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-body">
+                        <span class="cert-issuer">آموزشگاه کندو | ۱۴۰۳</span>
+                        <h3>MTCNA MikroTik</h3>
+                        <p class="cert-meta">Routing & Firewall</p>
+                    </div>
+                    <button class="cert-btn" onclick="openCert('certs/mtcna.jpg', 'MTCNA')">مشاهده مدرک</button>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-body">
+                        <span class="cert-issuer">مجتمع فنی تهران | ۱۴۰۲</span>
+                        <h3>CCNP & CCNA Cisco</h3>
+                        <p class="cert-meta">Enterprise Networking</p>
+                    </div>
+                    <button class="cert-btn" onclick="openCert('certs/cisco.jpg', 'Cisco')">مشاهده مدرک</button>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-body">
+                        <span class="cert-issuer">دانشگاهی</span>
+                        <h3>کارشناسی ICT و کاردانی نرم‌افزار</h3>
+                        <p class="cert-meta">عالیفرد و ۱۷ شهریور</p>
+                    </div>
+                    <button class="cert-btn" onclick="openCert('certs/university.jpg', 'University')">مشاهده مدرک</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- تحصیلات و مقالات -->
+        <section id="education" class="content-section">
+            <div class="section-header">
+                <span class="section-tag">05 // EDUCATION & PUBLICATIONS</span>
+                <h2 data-fa="تحصیلات، کتاب‌ها و مقالات" data-en="Education & Publications">تحصیلات، کتاب‌ها و مقالات</h2>
+            </div>
+            <div class="edu-grid">
+                <article class="edu-card">
+                    <span class="edu-year">در حال تحصیل از ۱۴۰۴</span>
+                    <h3>کارشناسی ارتباطات و فناوری اطلاعات (ICT)</h3>
+                    <p class="muted">دانشگاه علمی و کاربردی عالیفرد</p>
+                </article>
+                <article class="edu-card">
+                    <span class="edu-year">۱۳۹۶ تا ۱۳۹۹</span>
+                    <h3>کاردانی مهندسی کامپیوتر ـ نرم‌افزار</h3>
+                    <p class="muted">دانشگاه سراسری ۱۷ شهریور</p>
+                </article>
+                <article class="edu-card highlight-card">
+                    <span class="edu-year">مقاله علمی پژوهشی</span>
+                    <h3>سیستم‌های خبره در امنیت سایبری</h3>
+                    <p class="muted">پژوهش تخصصی در زمینه تشخیص تهدیدات سایبری با کمک سیستم‌های هوشمند.</p>
+                    <a class="project-link" href="notes/security-notes.pdf" target="_blank" rel="noopener noreferrer">📄 مشاهده و دانلود PDF مقاله ←</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- پروژه‌ها -->
+        <section id="projects" class="content-section">
+            <div class="section-header">
+                <span class="section-tag">06 // PROJECTS & LABS</span>
+                <h2 data-fa="پروژه‌ها و یادگیری عملی" data-en="Projects & Labs">پروژه‌ها و یادگیری عملی</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>آزمایشگاه تحلیل لاگ و Splunk</h3>
+                    <p>بررسی Event Logهای ویندوز، شناسایی حملات Brute Force و نوشتن کوئری‌های پایش در Splunk.</p>
+                    <span class="tag">SOC · Splunk</span>
+                </article>
+                <article class="project-card">
+                    <h3>سناریوهای فایروال FortiGate و MikroTik</h3>
+                    <p>مدیریت قوانین فایروال، محدودسازی دسترسی‌ها و عیب‌یابی ارتباطات شبکه.</p>
+                    <span class="tag">FortiGate · MikroTik</span>
+                </article>
+                <article class="project-card">
+                    <h3>یادداشت‌ها و مستندات امنیتی CyberShield</h3>
+                    <p>خلاصه‌برداری و مستندسازی مفاهیم امنیتی، MITRE ATT&CK و دستورات لینوکس.</p>
+                    <span class="tag">Documentation · Linux</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- ارتباط با من -->
+        <section id="contact" class="content-section">
+            <div class="section-header">
+                <span class="section-tag">07 // CONTACT</span>
+                <h2 data-fa="ارتباط با من" data-en="Get In Touch">ارتباط با من</h2>
+            </div>
+            <p>ساکن کرج (با امکان اسکان و همکاری در تهران). برای همکاری می‌توانید از راه‌های زیر در ارتباط باشید:</p>
+            <div class="contact-links">
+                <a href="mailto:Kamaliroostamahtab@gmail.com" class="contact-item">Kamaliroostamahtab@gmail.com</a>
+                <a href="tel:09362683588" class="contact-item" dir="ltr">0936 268 3588</a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-item">GitHub</a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-item">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- مودال نمایش مدارک -->
+    <div id="certModal" class="modal" onclick="closeCert()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeCert()">&times;</button>
+            <h3 id="modalTitle">پیش‌نمایش مدرک</h3>
+            <img id="modalImg" src="" alt="Certificate">
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 CyberShield — Fatemeh Kamaliroosta</p>
+    </footer>
+
+    <script>
+        // دنبال کردن موس برای نور پس‌زمینه
+        const mouseGlow = document.getElementById("mouseGlow");
+        document.addEventListener("mousemove", (e) => {
+            mouseGlow.style.left = e.clientX + "px";
+            mouseGlow.style.top = e.clientY + "px";
+        });
+
+        // تغییر زبان (فارسی و انگلیسی)
+        const faButton = document.getElementById("fa-btn");
+        const enButton = document.getElementById("en-btn");
+        function changeLanguage(lang) {
+            const isFa = lang === "fa";
+            document.documentElement.lang = lang;
+            document.documentElement.dir = isFa ? "rtl" : "ltr";
+            document.querySelectorAll("[data-fa][data-en]").forEach(el => {
+                el.textContent = el.getAttribute(`data-${lang}`);
+            });
+            faButton.classList.toggle("active", isFa);
+            enButton.classList.toggle("active", !isFa);
+        }
+        faButton.addEventListener("click", () => changeLanguage("fa"));
+        enButton.addEventListener("click", () => changeLanguage("en"));
+
+        // مودال نمایش مدارک
+        function openCert(src, title) {
+            document.getElementById("modalImg").src = src;
+            document.getElementById("modalTitle").textContent = title;
+            document.getElementById("certModal").classList.add("active");
+        }
+        function closeCert() {
+            document.getElementById("certModal").classList.remove("active");
+        }
+    </script>
+</body>
+</html>
